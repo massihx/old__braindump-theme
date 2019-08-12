@@ -7,7 +7,7 @@
 	"icon": "images/logo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.com/pv-public/braindump.git"
+		"url": "https://github.com/massihx/braindump-theme.git"
 	},
 	"engines": {
 		"vscode": "^1.37.0"
