@@ -3,7 +3,8 @@
 	"publisher": "purple-vision",
 	"displayName": "braindump",
 	"description": "braindump",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"repository": "gitlab:pv-public/braindump",
 	"engines": {
 		"vscode": "^1.37.0"
 	},

@@ -8,9 +8,5 @@ Describe specific features of your extension including screenshots of your exten
 
 For example if there is an image subfolder under your extension project workspace:
 
-\!\[features\]\(images/all.png\)
-
-![another features](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-![features 3](images/all.png "title")
+![features](images/all.png)
 
