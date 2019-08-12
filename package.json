@@ -2,14 +2,19 @@
 	"name": "braindump",
 	"publisher": "purple-vision",
 	"displayName": "braindump",
-	"description": "braindump",
-	"version": "0.0.2",
-	"repository": "https://gitlab.com/pv-public/braindump",
+	"description": "Braindump + Noctis Uve is a collection of light & dark themes with a well balanced blend of warm and cold colors",
+	"version": "0.0.5",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/pv-public/braindump.git"
+	},
 	"engines": {
 		"vscode": "^1.37.0"
 	},
 	"categories": [
-		"Programming Languages"
+		"Programming Languages",
+		"Themes"
 	],
 	"contributes": {
 		"languages": [
@@ -30,6 +35,30 @@
 				"scopeName": "source.bd",
 				"path": "./syntaxes/braindump.tmLanguage.json"
 			}
+		],
+		"themes": [
+			{
+				"label": "braindump",
+				"uiTheme": "vs-dark",
+				"path": "./themes/braindump-color-theme.json"
+			}
+		],
+		"breakpoints": [
+			{
+				"language": "braindump"
+			}
 		]
-	}
+	},
+	"galleryBanner": {
+		"color": "#052529",
+		"theme": "dark"
+	},
+	"scripts": {
+		"build": "node --experimental-modules src/build.mjs",
+		"release:major---": "npm run build && git add . && git commit -m 🆕10.0.0🆕 && npm version major & vsce publish && git push",
+		"release:minor": "npm run build && git add . && git commit -m 10.2.0 && npm version minor & vsce publish && git push",
+		"release:patch": "npm run build && git add . && git commit -m 10.2.1 && npm version patch & vsce publish && git push"
+	},
+	"dependencies": {},
+	"devDependencies": {}
 }

@@ -8,6 +8,7 @@ Describe specific features of your extension including screenshots of your exten
 
 For example if there is an image subfolder under your extension project workspace:
 
-\!\[features\]\(images/all.png\)
+\!\[features\]\(images/alls.png\)
+
 
 
