@@ -1,0 +1,230 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "braindump",
+	"patterns": [
+		{ "include": "#h1" },
+		{ "include": "#h2" },
+		{ "include": "#h3" },
+		{ "include": "#d1" },
+		{ "include": "#d2" },
+
+		{ "include": "#eq" },
+		{ "include": "#plus" },
+		{ "include": "#minus" },
+		{ "include": "#star" },
+		{ "include": "#question" },
+		{ "include": "#gt" },
+		{ "include": "#lt" },
+
+		{ "include": "#squote" },
+		{ "include": "#dquote" },
+		{ "include": "#tquote" },
+
+		{ "include": "#comment" },
+		{ "include": "#parenthesis" },
+		{ "include": "#bracket" },
+		{ "include": "#curlybracket" },
+		{ "include": "#keyvalue" },
+		{ "include": "#ol" },
+		{ "include": "#link" }
+	],
+	"repository": {
+		"h1": {
+			"patterns": [
+				{
+					"name": "h1.braindump",
+					"match": "^([\\s+]*(#\\s))(.*)"
+				}
+			],
+			"settings": {
+				"foreground": "#e47a0a"
+			}
+		},
+		"h2": {
+			"patterns": [
+				{
+					"name": "h2.braindump",
+					"match": "^([\\s+]*(##\\s))(.*)"
+				}
+			]
+		},
+		"h3": {
+			"patterns": [
+				{
+					"name": "h3.braindump",
+					"match": "^([\\s+]*(###\\s))(.*)"
+				}
+			]
+		},
+		"d1": {
+			"patterns": [
+				{
+					"name": "d1.braindump",
+					"match": "^([\\s+]*(_\\s))(.*)"
+				}
+			]
+		},
+		"d2": {
+			"patterns": [
+				{
+					"name": "d2.braindump",
+					"match": "^([\\s+]*(__\\s))(.*)"
+				}
+			]
+		},
+		"eq": {
+			"patterns": [
+				{
+					"name": "eq.braindump",
+					"match": "^([\\s+]*([=]\\s))(.*)"
+				}
+			]
+		},
+		"plus": {
+			"patterns": [
+				{
+					"name": "plus.braindump",
+					"match": "^([\\s+]*([+]\\s))(.*)"
+				}
+			]
+		},
+		"minus": {
+			"patterns": [
+				{
+					"name": "minus.braindump",
+					"match": "^([\\s+]*([-]\\s))(.*)"
+				}
+			]
+		},
+		"star": {
+			"patterns": [
+				{
+					"name": "star.braindump",
+					"match": "^([\\s+]*([\\*]\\s))(.*)"
+				}
+			]
+		},
+		"question": {
+			"patterns": [
+				{
+					"name": "question.braindump",
+					"match": "^([\\s+]*([?]\\s))(.*)"
+				}
+			]
+		},
+		"gt": {
+			"patterns": [
+				{
+					"name": "gt.braindump",
+					"match": "^([\\s+]*([>]\\s))(.*)"
+				}
+			]
+		},
+		"lt": {
+			"patterns": [
+				{
+					"name": "lt.braindump",
+					"match": "^([\\s+]*([<]\\s))(.*)"
+				}
+			]
+		},
+
+		"_squote": {
+			"name": "squote.braindump",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "temp.braindump",
+					"match": "\\\\."
+				}
+			]
+		},
+		"dquote": {
+			"name": "dquote.braindump",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "temp.braindump",
+					"match": "\\\\."
+				}
+			]
+		},
+		"tquote": {
+			"name": "tquote.braindump",
+			"begin": "`",
+			"end": "`",
+			"patterns": [
+				{
+					"name": "temp.braindump",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comment": {
+			"patterns": [
+				{
+					"name": "comment.braindump",
+					"match": "^([\\s+]*(//\\s))(.*)"
+				}
+			]
+		},
+		"parenthesis": {
+			"name": "parenthesis.braindump",
+			"match": "^([\\s+]*(\\(.*\\)\\s))(.*)"
+		},
+		"bracket": {
+			"patterns": [
+				{
+					"name": "bracket.braindump",
+					"match": "^([\\s+]*(\\[.*\\]\\s))(.*)"
+				}
+			]
+		},
+		"curlybracket": {
+			"patterns": [
+				{
+					"name": "curlybracket.braindump",
+					"match": "^([\\s+]*(\\{.*\\}\\s))(.*)"
+				}
+			]
+		},
+		"keyvalue": {
+			"patterns": [
+				{
+					"name": "keyvalue.braindump",
+					"match": "^([^(http)+].*(:))(.*)",
+					"matchX": "^([\\w+].*(:))(.*)",
+					"captures": {
+						"1": { "name": "key.keyvalue.braindump" },
+						"2": { "name": "colon.keyvalue.braindump" },
+						"3": { "name": "value.keyvalue.braindump" }
+					}
+				}
+			]
+		},
+		"ol": {
+			"patterns": [
+				{
+					"name": "ol.braindump",
+					"match": "^([0-9][/.])([^0-9])(.*)",
+					"captures": {
+						"1": { "name": "start.ol.braindump" },
+						"2": { "name": "end.ol.braindump" },
+						"3": { "name": "end.ol.braindump" }
+					}
+				}
+			]
+		},
+		"link": {
+			"patterns": [
+				{
+					"name": "link.braindump",
+					"match": "^[http|https|www](.*)"
+				}
+			]
+		}
+	},
+	"scopeName": "source.bd"
+}

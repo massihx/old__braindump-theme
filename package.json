@@ -1,0 +1,34 @@
+{
+	"name": "braindump",
+	"publisher": "purple-vision",
+	"displayName": "braindump",
+	"description": "braindump",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "braindump",
+				"aliases": [
+					"braindump"
+				],
+				"extensions": [
+					".bd"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "braindump",
+				"scopeName": "source.bd",
+				"path": "./syntaxes/braindump.tmLanguage.json"
+			}
+		]
+	}
+}

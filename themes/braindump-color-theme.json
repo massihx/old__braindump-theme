@@ -1,0 +1,169 @@
+{
+	"name": "braindump",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#100537",
+		"editor.foreground": "#9390fa",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"name": "h1",
+			"scope": ["h1.braindump"],
+			"settings": {
+				"foreground": "#e47a0a"
+			}
+		},
+		{
+			"name": "h2",
+			"scope": ["h2.braindump"],
+			"settings": {
+				"foreground": "#b66005"
+			}
+		},
+		{
+			"name": "h3",
+			"scope": ["h3.braindump"],
+			"settings": {
+				"foreground": "#925009"
+			}
+		},
+
+		{
+			"name": "eq",
+			"scope": ["eq.braindump"],
+			"settings": {
+				"foreground": "#f42693"
+			}
+		},
+		{
+			"name": "plus",
+			"scope": ["plus.braindump"],
+			"settings": {
+				"foreground": "#dd6ba7"
+			}
+		},
+
+		{
+			"name": "minus",
+			"scope": ["minus.braindump"],
+			"settings": {
+				"foreground": "#db8fee"
+			}
+		},
+		{
+			"name": "star",
+			"scope": ["star.braindump"],
+			"settings": {
+				"foreground": "#97b15a"
+			}
+		},
+		{
+			"name": "question",
+			"scope": ["question.braindump"],
+			"settings": {
+				"foreground": "#e02323"
+			}
+		},
+		{
+			"name": "lt",
+			"scope": ["lt.braindump"],
+			"settings": {
+				"foreground": "#54b9c1"
+			}
+		},
+		{
+			"name": "gt",
+			"scope": ["gt.braindump"],
+			"settings": {
+				"foreground": "#2a9097"
+			}
+		},
+
+		{
+			"name": "dquote",
+			"scope": ["dquote.braindump"],
+			"settings": {
+				"foreground": "#b3ff00"
+			}
+		},
+		{
+			"name": "tquote",
+			"scope": ["tquote.braindump"],
+			"settings": {
+				"foreground": "#969604"
+			}
+		},
+		{
+			"name": "comment",
+			"scope": ["comment.braindump"],
+			"settings": {
+				"foreground": "#4c35b4"
+			}
+		},
+		{
+			"name": "parenthesis",
+			"scope": ["parenthesis.braindump"],
+			"settings": {
+				"foreground": "#50ba7c"
+			}
+		},
+		{
+			"name": "bracket",
+			"scope": ["bracket.braindump"],
+			"settings": {
+				"foreground": "#3c9b63"
+			}
+		},
+		{
+			"name": "curlybracket",
+			"scope": ["curlybracket.braindump"],
+			"settings": {
+				"foreground": "#24804a"
+			}
+		},
+		{
+			"name": "olstart",
+			"scope": ["start.ol.braindump"],
+			"settings": {
+				"foreground": "#977112"
+			}
+		},
+		{
+			"name": "olend",
+			"scope": ["end.ol.braindump"],
+			"settings": {
+				"foreground": "#daa520"
+			}
+		},
+		{
+			"name": "link",
+			"scope": ["link.braindump"],
+			"settings": {
+				"foreground": "#006eff"
+			}
+		},
+		{
+			"name": "key",
+			"scope": ["key.keyvalue.braindump"],
+			"settings": {
+				"foreground": "#08ad29"
+			}
+		},
+		{
+			"name": "colon",
+			"scope": ["colon.keyvalue.braindump"],
+			"settings": {
+				"foreground": "#6ce724"
+			}
+		},
+		{
+			"name": "value",
+			"scope": ["value.keyvalue.braindump"],
+			"settings": {
+				"foreground": "#01ff16"
+			}
+		}
+	]
+}
