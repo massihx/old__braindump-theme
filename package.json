@@ -2,8 +2,8 @@
 	"name": "braindump",
 	"publisher": "purple-vision",
 	"displayName": "braindump",
-	"description": "Braindump + Noctis Uve is a collection of light & dark themes with a well balanced blend of warm and cold colors",
-	"version": "0.0.5",
+	"description": "Braindump + Noctis Uve",
+	"version": "0.0.6",
 	"icon": "images/logo.png",
 	"repository": {
 		"type": "git",
@@ -41,11 +41,6 @@
 				"label": "braindump",
 				"uiTheme": "vs-dark",
 				"path": "./themes/braindump-color-theme.json"
-			}
-		],
-		"breakpoints": [
-			{
-				"language": "braindump"
 			}
 		]
 	},
