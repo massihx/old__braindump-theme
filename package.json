@@ -3,7 +3,7 @@
 	"publisher": "purple-vision",
 	"displayName": "braindump",
 	"description": "Braindump + Noctis Uve",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"icon": "images/logo.png",
 	"repository": {
 		"type": "git",
