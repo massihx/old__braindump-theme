@@ -1,6 +1,6 @@
 # braindump
 
-![features](images/alls.png)
+![features](images/all.png)
 
 TODO: update README :)
 
