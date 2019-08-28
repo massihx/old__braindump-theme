@@ -1016,7 +1016,22 @@
 			"name": "eq",
 			"scope": ["eq.braindump"],
 			"settings": {
-				"foreground": "#f42693"
+				"foreground": "#f42693",
+				"fontStyle": "bold italic underline"
+			}
+		},
+		{
+			"name": "eqeq",
+			"scope": ["eqeq.braindump"],
+			"settings": {
+				"foreground": "#0ebf17"
+			}
+		},
+		{
+			"name": "eqeqeq",
+			"scope": ["eqeqeq.braindump"],
+			"settings": {
+				"foreground": "#5d50eb"
 			}
 		},
 		{
@@ -1024,6 +1039,20 @@
 			"scope": ["plus.braindump"],
 			"settings": {
 				"foreground": "#dd6ba7"
+			}
+		},
+		{
+			"name": "plusplus",
+			"scope": ["plusplus.braindump"],
+			"settings": {
+				"foreground": "#4649da"
+			}
+		},
+		{
+			"name": "plusplusplus",
+			"scope": ["plusplusplus.braindump"],
+			"settings": {
+				"foreground": "#d8c518"
 			}
 		},
 
@@ -1035,6 +1064,21 @@
 			}
 		},
 		{
+			"name": "minusminus",
+			"scope": ["minusminus.braindump"],
+			"settings": {
+				"foreground": "#9e4db3"
+			}
+		},
+		{
+			"name": "minusminusminus",
+			"scope": ["minusminusminus.braindump"],
+			"settings": {
+				"foreground": "#e277fa"
+			}
+		},
+
+		{
 			"name": "star",
 			"scope": ["star.braindump"],
 			"settings": {
@@ -1042,10 +1086,53 @@
 			}
 		},
 		{
+			"name": "starstar",
+			"scope": ["starstar.braindump"],
+			"settings": {
+				"foreground": "#75942c"
+			}
+		},
+		{
+			"name": "starstarstar",
+			"scope": ["starstarstar.braindump"],
+			"settings": {
+				"foreground": "#50681a"
+			}
+		},
+
+		{
 			"name": "question",
 			"scope": ["question.braindump"],
 			"settings": {
 				"foreground": "#e02323"
+			}
+		},
+		{
+			"name": "questionquestion",
+			"scope": ["questionquestion.braindump"],
+			"settings": {
+				"foreground": "#a51313"
+			}
+		},
+		{
+			"name": "questionquestionquestion",
+			"scope": ["questionquestionquestion.braindump"],
+			"settings": {
+				"foreground": "#e78989"
+			}
+		},
+		{
+			"name": "mention",
+			"scope": ["mention.braindump"],
+			"settings": {
+				"foreground": "#6d0d70"
+			}
+		},
+		{
+			"name": "exclamation",
+			"scope": ["exclamation.braindump"],
+			"settings": {
+				"foreground": "#bb10bb"
 			}
 		},
 		{
@@ -1056,10 +1143,38 @@
 			}
 		},
 		{
+			"name": "ltlt",
+			"scope": ["ltlt.braindump"],
+			"settings": {
+				"foreground": "#337377"
+			}
+		},
+		{
+			"name": "ltltlt",
+			"scope": ["ltltlt.braindump"],
+			"settings": {
+				"foreground": "#a2e6eb"
+			}
+		},
+		{
 			"name": "gt",
 			"scope": ["gt.braindump"],
 			"settings": {
 				"foreground": "#2a9097"
+			}
+		},
+		{
+			"name": "gtgt",
+			"scope": ["gtgt.braindump"],
+			"settings": {
+				"foreground": "#157279"
+			}
+		},
+		{
+			"name": "gtgtgt",
+			"scope": ["gtgtgt.braindump"],
+			"settings": {
+				"foreground": "#0e555a"
 			}
 		},
 
@@ -1081,7 +1196,7 @@
 			"name": "comment",
 			"scope": ["comment.braindump"],
 			"settings": {
-				"foreground": "#4c35b4"
+				"foreground": "#7769b4"
 			}
 		},
 		{
@@ -1120,10 +1235,25 @@
 			}
 		},
 		{
+			"name": "ulstart",
+			"scope": ["start.ul.braindump"],
+			"settings": {
+				"foreground": "#126697"
+			}
+		},
+		{
+			"name": "ulend",
+			"scope": ["end.ul.braindump"],
+			"settings": {
+				"foreground": "#2071da"
+			}
+		},
+
+		{
 			"name": "link",
 			"scope": ["link.braindump"],
 			"settings": {
-				"foreground": "#006eff"
+				"foreground": "#bf00ff"
 			}
 		},
 		{

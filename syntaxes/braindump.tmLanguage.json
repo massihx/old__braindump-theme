@@ -9,12 +9,30 @@
 		{ "include": "#d2" },
 
 		{ "include": "#eq" },
+		{ "include": "#eqeq" },
+		{ "include": "#eqeqeq" },
 		{ "include": "#plus" },
+		{ "include": "#plusplus" },
+		{ "include": "#plusplusplus" },
 		{ "include": "#minus" },
+		{ "include": "#minusminus" },
+		{ "include": "#minusminusminus" },
 		{ "include": "#star" },
+		{ "include": "#starstar" },
+		{ "include": "#starstarstar" },
 		{ "include": "#question" },
+		{ "include": "#questionquestion" },
+		{ "include": "#questionquestionquestion" },
+
+		{ "include": "#mention" },
+		{ "include": "#exclamation" },
+
 		{ "include": "#gt" },
+		{ "include": "#gtgt" },
+		{ "include": "#gtgtgt" },
 		{ "include": "#lt" },
+		{ "include": "#ltlt" },
+		{ "include": "#ltltlt" },
 
 		{ "include": "#squote" },
 		{ "include": "#dquote" },
@@ -26,6 +44,7 @@
 		{ "include": "#curlybracket" },
 		{ "include": "#keyvalue" },
 		{ "include": "#ol" },
+		{ "include": "#ul" },
 		{ "include": "#link" }
 	],
 	"repository": {
@@ -72,35 +91,103 @@
 				}
 			]
 		},
+
 		"eq": {
 			"patterns": [
 				{
 					"name": "eq.braindump",
-					"match": "^([\\s+]*([=]\\s))(.*)"
+					"match": "^([\\s+]*(=\\s))(.*)"
 				}
 			]
 		},
+		"eqeq": {
+			"patterns": [
+				{
+					"name": "eqeq.braindump",
+					"match": "^([\\s+]*(==\\s))(.*)"
+				}
+			]
+		},
+		"eqeqeq": {
+			"patterns": [
+				{
+					"name": "eqeqeq.braindump",
+					"match": "^([\\s+]*(===\\s))(.*)"
+				}
+			]
+		},
+
 		"plus": {
 			"patterns": [
 				{
 					"name": "plus.braindump",
-					"match": "^([\\s+]*([+]\\s))(.*)"
+					"match": "^([\\s]*([+]\\s))(.*)"
 				}
 			]
 		},
+		"plusplus": {
+			"patterns": [
+				{
+					"name": "plusplus.braindump",
+					"match": "^([\\s]*(\\+\\+\\s))(.*)"
+				}
+			]
+		},
+		"plusplusplus": {
+			"patterns": [
+				{
+					"name": "plusplusplus.braindump",
+					"match": "^([\\s]*(\\+\\+\\+\\s))(.*)"
+				}
+			]
+		},
+
 		"minus": {
 			"patterns": [
 				{
 					"name": "minus.braindump",
-					"match": "^([\\s+]*([-]\\s))(.*)"
+					"match": "^([\\s]*(-\\s))(.*)"
 				}
 			]
 		},
+		"minusminus": {
+			"patterns": [
+				{
+					"name": "minusminus.braindump",
+					"match": "^([\\s]*(--\\s))(.*)"
+				}
+			]
+		},
+		"minusminusminus": {
+			"patterns": [
+				{
+					"name": "minusminusminus.braindump",
+					"match": "^([\\s]*(---\\s))(.*)"
+				}
+			]
+		},
+
 		"star": {
 			"patterns": [
 				{
 					"name": "star.braindump",
-					"match": "^([\\s+]*([\\*]\\s))(.*)"
+					"match": "^([\\s]*(\\*\\s))(.*)"
+				}
+			]
+		},
+		"starstar": {
+			"patterns": [
+				{
+					"name": "starstar.braindump",
+					"match": "^([\\s]*(\\*\\*\\s))(.*)"
+				}
+			]
+		},
+		"starstarstar": {
+			"patterns": [
+				{
+					"name": "starstarstar.braindump",
+					"match": "^([\\s]*(\\*\\*\\*\\s))(.*)"
 				}
 			]
 		},
@@ -108,15 +195,65 @@
 			"patterns": [
 				{
 					"name": "question.braindump",
-					"match": "^([\\s+]*([?]\\s))(.*)"
+					"match": "^([\\s]*(\\?\\s))(.*)"
 				}
 			]
 		},
+		"questionquestion": {
+			"patterns": [
+				{
+					"name": "questionquestion.braindump",
+					"match": "^([\\s]*(\\?\\?\\s))(.*)"
+				}
+			]
+		},
+		"questionquestionquestion": {
+			"patterns": [
+				{
+					"name": "questionquestionquestion.braindump",
+					"match": "^([\\s]*(\\?\\?\\?\\s))(.*)"
+				}
+			]
+		},
+
+		"mention": {
+			"patterns": [
+				{
+					"name": "mention.braindump",
+					"match": "^([\\s]*(\\@))(.*)"
+				}
+			]
+		},
+		"exclamation": {
+			"patterns": [
+				{
+					"name": "exclamation.braindump",
+					"match": "^([\\s]*(\\!\\s))(.*)"
+				}
+			]
+		},
+
 		"gt": {
 			"patterns": [
 				{
 					"name": "gt.braindump",
 					"match": "^([\\s+]*([>]\\s))(.*)"
+				}
+			]
+		},
+		"gtgt": {
+			"patterns": [
+				{
+					"name": "gtgt.braindump",
+					"match": "^([\\s+]*(\\>\\>\\s))(.*)"
+				}
+			]
+		},
+		"gtgtgt": {
+			"patterns": [
+				{
+					"name": "gtgtgt.braindump",
+					"match": "^([\\s+]*(\\>\\>\\>\\s))(.*)"
 				}
 			]
 		},
@@ -128,7 +265,22 @@
 				}
 			]
 		},
-
+		"ltlt": {
+			"patterns": [
+				{
+					"name": "ltlt.braindump",
+					"match": "^([\\s+]*(\\<\\<\\s))(.*)"
+				}
+			]
+		},
+		"ltltlt": {
+			"patterns": [
+				{
+					"name": "ltltlt.braindump",
+					"match": "^([\\s+]*(\\<\\<\\<\\s))(.*)"
+				}
+			]
+		},
 		"_squote": {
 			"name": "squote.braindump",
 			"begin": "'",
@@ -194,7 +346,7 @@
 			"patterns": [
 				{
 					"name": "keyvalue.braindump",
-					"match": "^([^(http)+].*(:))(.*)",
+					"match": "^([\\S\\s].*(:))\\s(.*)",
 					"matchX": "^([\\w+].*(:))(.*)",
 					"captures": {
 						"1": { "name": "key.keyvalue.braindump" },
@@ -208,7 +360,7 @@
 			"patterns": [
 				{
 					"name": "ol.braindump",
-					"match": "^([0-9][/.])([^0-9])(.*)",
+					"match": "([0-9]+[/.])([^0-9])(.*)",
 					"captures": {
 						"1": { "name": "start.ol.braindump" },
 						"2": { "name": "end.ol.braindump" },
@@ -217,11 +369,24 @@
 				}
 			]
 		},
+		"ul": {
+			"patterns": [
+				{
+					"name": "ul.braindump",
+					"match": "([A-Za-z0-9]+[/.])([^0-9])(.*)",
+					"captures": {
+						"1": { "name": "start.ul.braindump" },
+						"2": { "name": "end.ul.braindump" },
+						"3": { "name": "end.ul.braindump" }
+					}
+				}
+			]
+		},
 		"link": {
 			"patterns": [
 				{
 					"name": "link.braindump",
-					"match": "^[http|https|www](.*)"
+					"match": "^(http|https)(.*)"
 				}
 			]
 		}
