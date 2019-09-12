@@ -2,8 +2,8 @@
 	"name": "braindump",
 	"publisher": "purple-vision",
 	"displayName": "braindump",
-	"description": "Braindump + Noctis Uve",
-	"version": "0.0.8",
+	"description": "Braindump: Note Taking Syntax Highlighting",
+	"version": "0.0.9",
 	"icon": "images/logo.png",
 	"repository": {
 		"type": "git",
@@ -14,14 +14,18 @@
 	},
 	"categories": [
 		"Programming Languages",
-		"Themes"
+		"Themes",
+		"Formatters",
+		"Other"
 	],
 	"contributes": {
 		"languages": [
 			{
 				"id": "braindump",
 				"aliases": [
-					"braindump"
+					"braindump",
+					"bd",
+					"brain dump"
 				],
 				"extensions": [
 					".bd"

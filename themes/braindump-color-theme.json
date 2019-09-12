@@ -994,21 +994,24 @@
 			"name": "h1",
 			"scope": ["h1.braindump"],
 			"settings": {
-				"foreground": "#e47a0a"
+				"foreground": "#e47a0a",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "h2",
 			"scope": ["h2.braindump"],
 			"settings": {
-				"foreground": "#b66005"
+				"foreground": "#d3740e",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "h3",
 			"scope": ["h3.braindump"],
 			"settings": {
-				"foreground": "#925009"
+				"foreground": "#b66005",
+				"fontStyle": "italic "
 			}
 		},
 
@@ -1016,22 +1019,21 @@
 			"name": "eq",
 			"scope": ["eq.braindump"],
 			"settings": {
-				"foreground": "#f42693",
-				"fontStyle": "bold italic underline"
+				"foreground": "#f42693"
 			}
 		},
 		{
 			"name": "eqeq",
 			"scope": ["eqeq.braindump"],
 			"settings": {
-				"foreground": "#0ebf17"
+				"foreground": "#cc1f7b"
 			}
 		},
 		{
 			"name": "eqeqeq",
 			"scope": ["eqeqeq.braindump"],
 			"settings": {
-				"foreground": "#5d50eb"
+				"foreground": "#aa1b67"
 			}
 		},
 		{
@@ -1045,16 +1047,16 @@
 			"name": "plusplus",
 			"scope": ["plusplus.braindump"],
 			"settings": {
-				"foreground": "#4649da"
+				"foreground": "#f356aa"
 			}
 		},
 		{
 			"name": "plusplusplus",
 			"scope": ["plusplusplus.braindump"],
 			"settings": {
-				"foreground": "#d8c518"
+				"foreground": "#c73f88"
 			}
-		},
+		}, // #d8c518
 
 		{
 			"name": "minus",
@@ -1067,14 +1069,14 @@
 			"name": "minusminus",
 			"scope": ["minusminus.braindump"],
 			"settings": {
-				"foreground": "#9e4db3"
+				"foreground": "#e277fa"
 			}
 		},
 		{
 			"name": "minusminusminus",
 			"scope": ["minusminusminus.braindump"],
 			"settings": {
-				"foreground": "#e277fa"
+				"foreground": "#d96cf5"
 			}
 		},
 
@@ -1082,21 +1084,21 @@
 			"name": "star",
 			"scope": ["star.braindump"],
 			"settings": {
-				"foreground": "#97b15a"
+				"foreground": "#e02323"
 			}
 		},
 		{
 			"name": "starstar",
 			"scope": ["starstar.braindump"],
 			"settings": {
-				"foreground": "#75942c"
+				"foreground": "#c71f1f"
 			}
-		},
+		}, // #75942c
 		{
 			"name": "starstarstar",
 			"scope": ["starstarstar.braindump"],
 			"settings": {
-				"foreground": "#50681a"
+				"foreground": "#ce0404"
 			}
 		},
 
@@ -1104,56 +1106,59 @@
 			"name": "question",
 			"scope": ["question.braindump"],
 			"settings": {
-				"foreground": "#e02323"
+				"foreground": "#00ff88",
+				"fontStyle": "bold italic"
 			}
 		},
 		{
 			"name": "questionquestion",
 			"scope": ["questionquestion.braindump"],
 			"settings": {
-				"foreground": "#a51313"
+				"foreground": "#00ff15",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "questionquestionquestion",
 			"scope": ["questionquestionquestion.braindump"],
 			"settings": {
-				"foreground": "#e78989"
+				"foreground": "#05cf16",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "mention",
 			"scope": ["mention.braindump"],
 			"settings": {
-				"foreground": "#6d0d70"
+				"foreground": "#abf00c"
 			}
 		},
 		{
 			"name": "exclamation",
 			"scope": ["exclamation.braindump"],
 			"settings": {
-				"foreground": "#bb10bb"
+				"foreground": "#97b15a"
 			}
 		},
 		{
 			"name": "lt",
 			"scope": ["lt.braindump"],
 			"settings": {
-				"foreground": "#54b9c1"
+				"foreground": "#a2e6eb"
 			}
 		},
 		{
 			"name": "ltlt",
 			"scope": ["ltlt.braindump"],
 			"settings": {
-				"foreground": "#337377"
+				"foreground": "#54b9c1"
 			}
 		},
 		{
 			"name": "ltltlt",
 			"scope": ["ltltlt.braindump"],
 			"settings": {
-				"foreground": "#a2e6eb"
+				"foreground": "#337377"
 			}
 		},
 		{
@@ -1182,14 +1187,16 @@
 			"name": "dquote",
 			"scope": ["dquote.braindump"],
 			"settings": {
-				"foreground": "#b3ff00"
+				"foreground": "#917b8f",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "tquote",
 			"scope": ["tquote.braindump"],
 			"settings": {
-				"foreground": "#969604"
+				"foreground": "#678582",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1198,7 +1205,7 @@
 			"settings": {
 				"foreground": "#7769b4"
 			}
-		},
+		}, // #7769b4"
 		{
 			"name": "parenthesis",
 			"scope": ["parenthesis.braindump"],
@@ -1210,7 +1217,7 @@
 			"name": "bracket",
 			"scope": ["bracket.braindump"],
 			"settings": {
-				"foreground": "#3c9b63"
+				"foreground": "#4649da"
 			}
 		},
 		{
@@ -1224,7 +1231,7 @@
 			"name": "olstart",
 			"scope": ["start.ol.braindump"],
 			"settings": {
-				"foreground": "#977112"
+				"foreground": "#aa821c"
 			}
 		},
 		{
@@ -1238,14 +1245,14 @@
 			"name": "ulstart",
 			"scope": ["start.ul.braindump"],
 			"settings": {
-				"foreground": "#126697"
+				"foreground": "#aa821c"
 			}
 		},
 		{
 			"name": "ulend",
 			"scope": ["end.ul.braindump"],
 			"settings": {
-				"foreground": "#2071da"
+				"foreground": "#daa520"
 			}
 		},
 
@@ -1253,28 +1260,28 @@
 			"name": "link",
 			"scope": ["link.braindump"],
 			"settings": {
-				"foreground": "#bf00ff"
+				"foreground": "#7c7af9"
 			}
 		},
 		{
 			"name": "key",
 			"scope": ["key.keyvalue.braindump"],
 			"settings": {
-				"foreground": "#08ad29"
+				"foreground": "#23c4e0"
 			}
 		},
 		{
 			"name": "colon",
 			"scope": ["colon.keyvalue.braindump"],
 			"settings": {
-				"foreground": "#6ce724"
+				"foreground": "#23c4e0"
 			}
 		},
 		{
 			"name": "value",
 			"scope": ["value.keyvalue.braindump"],
 			"settings": {
-				"foreground": "#01ff16"
+				"foreground": "#22adc5"
 			}
 		}
 	]
