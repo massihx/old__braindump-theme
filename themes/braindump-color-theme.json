@@ -1056,7 +1056,7 @@
 			"settings": {
 				"foreground": "#c73f88"
 			}
-		}, // #d8c518
+		},
 
 		{
 			"name": "minus",
@@ -1093,7 +1093,7 @@
 			"settings": {
 				"foreground": "#c71f1f"
 			}
-		}, // #75942c
+		},
 		{
 			"name": "starstarstar",
 			"scope": ["starstarstar.braindump"],
@@ -1137,7 +1137,7 @@
 			"name": "exclamation",
 			"scope": ["exclamation.braindump"],
 			"settings": {
-				"foreground": "#97b15a"
+				"foreground": "#d8c518"
 			}
 		},
 		{

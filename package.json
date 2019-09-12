@@ -1,9 +1,9 @@
 {
 	"name": "braindump",
 	"publisher": "purple-vision",
-	"displayName": "braindump",
-	"description": "Braindump: Note Taking Syntax Highlighting",
-	"version": "0.0.9",
+	"displayName": "BrainDump Syntax",
+	"description": "Braindump: Note Taking - Syntax Highlighter",
+	"version": "0.0.10",
 	"icon": "images/logo.png",
 	"repository": {
 		"type": "git",
